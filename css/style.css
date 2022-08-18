@@ -7,6 +7,7 @@
 html, body {
     height: 100%;
 }
+
 header{
     background-image: linear-gradient(90deg, #EE9CA7 0%, #FFDDE1 100%);
    
@@ -79,4 +80,174 @@ div.imagem02{
     
     margin-top: 200px;
     margin-left: 400px;
+=======
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+section.formacao {
+    background-image: url('../images/fotoacademia1.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+}
+
+section.formacao .gradiant {
+    background: linear-gradient(90deg, rgba(238, 156, 167,0.7) 38%, rgba(255, 221, 225, 0.4) 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+section.formacao .formacao-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+
+section.formacao .formacao-wraper h1 {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    color: #692336;
+}
+
+section.formacao .w50 {
+    width: 50%;
+    padding: 1%;
+}
+
+section.formacao .w50 .img-formatura {
+    width: 260px;
+    height: 420px;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: top;
+    background-image: url('../images/fotoformatura1.jpeg');
+    margin-top: 120px;
+}
+
+section.formacao .formacao1 p {
+    width: 260px;
+    margin: 30px 0 30px 70px;
+}
+
+section.formacao .w50 .img-container {
+    width: 500px;
+    height: 600px;
+    margin: 80px auto 0;
+}
+
+section.formacao .w50 .img-treino {
+    background-position: center;
+    background-size: cover;
+    width: 170px;
+    height: 240px;
+}
+
+section.formacao .w50 .img-treino:nth-child(1) {
+    background-image: url('../images/foto1.png');
+}
+
+section.formacao .w50 .img-treino:nth-child(2) {
+    background-image: url('../images/foto2.png');
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 50px;
+}
+
+section.formacao .w50 .img-treino:nth-child(3) {
+    background-image: url('../images/foto3.jpeg');
+    float: left;
+    position: relative;
+    top: 120px;
+    left: 32px;
+}
+
+section.formacao .formacao2 p {
+    width: 100%;
+    padding: 1%;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:1280px) {
+
+    section.formacao .w50-wraper {
+        margin: 0 auto;
+    }
+
+    section.formacao .formacao1 .img-formatura {
+        width: 260px;
+        height: 420px;
+        margin: 60px auto 0;
+    }
+
+    section.formacao .formacao1 p {
+        width: 60%;
+        margin: 40px auto 0;
+    }
+
+    section.formacao .w50 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+
+    section.formacao .w50 .img-container {
+        width: 320px;
+        height: 600px;
+        margin: 80px auto 0;
+        background-color: #692336;
+    }
+
+    section.formacao .w50 .img-treino {
+        background-position: center;
+        background-size: cover;
+        width: 170px;
+        height: 240px;
+    }
+    
+    section.formacao .w50 .img-treino:nth-child(1) {
+        background-image: url('../images/foto1.png');
+    }
+    
+    section.formacao .w50 .img-treino:nth-child(2) {
+        background-image: url('../images/foto2.png');
+        float: right;
+        position: relative;
+        bottom: 80px;
+        right: 0px;
+    }
+    
+    section.formacao .w50 .img-treino:nth-child(3) {
+        background-image: url('../images/foto3.jpeg');
+        float: left;
+        position: relative;
+        top: -120px;
+        left: 32px;
+    }
+    
+    section.formacao .formacao2 p {
+        width: 100%;
+        padding: 1%;
+        margin-top: 20px;
+    }
+
+
 }
