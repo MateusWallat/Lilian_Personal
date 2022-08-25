@@ -8,6 +8,83 @@ html, body {
     height: 100%;
 }
 
+header{
+    background-image: linear-gradient(90deg, #EE9CA7 0%, #FFDDE1 100%);
+   
+}
+nav{
+    text-align: right;
+    padding-top: 20px;
+}
+nav > a{
+    color: #564E4E;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 15px; 
+}
+
+header h1 {
+    font-size: 3em;
+    padding-left: 20px;
+
+}
+h1 > span{
+    font-size: 2em;
+    
+}
+h2 {
+    color: #6E2A41;
+    font-size: 3em;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+div.orçamemto{
+   background-image: linear-gradient(90deg, #C84E89 0%, #F15F79 100%);
+   border-radius: 20px 10px;
+   text-align: center;
+    width: 184px;
+    height: 52px;
+    position: absolute;
+    right: 100px;
+    margin-top: 15px;
+}
+section.home{
+    background-image: linear-gradient(90deg, #EE9CA7 0%, #FFDDE1 100%);
+    
+}
+div.imagem01{
+   
+    padding: 30px;
+    display: flex;
+    justify-content: last baseline;
+    
+}
+img{
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.imagem2{
+   border-radius: 70px;
+}
+div.paragrafo{
+    
+    margin-top: 200px;
+    margin-left: 80px;
+    width: 318px;
+    height: 200px;
+    text-align: center;
+    
+}
+div.imagem02 {
+    margin-top: 200px;
+    margin-left: 400px;
+
+}
+
+
+
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -320,5 +397,4 @@ section.contato .content a:hover {
     section.kids .img {
         height: 320px;
     }
-
 }
