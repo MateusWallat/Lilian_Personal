@@ -85,6 +85,9 @@ div.imagem02 {
 
 
 
+
+}
+/*fim section home */
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -194,6 +197,137 @@ section.formacao .formacao2 p {
     padding: 1%;
     margin-top: 15px;
 }
+/*Section Serviços*/
+section.servicos{
+    background-image: linear-gradient(90deg, #EE9CA7 0%, #FFDDE1 100%); 
+}
+section.servicos h2{
+    font-size: 50px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+section.servicos h3{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    margin-bottom: 5%;
+
+
+}
+.serviosP{
+  height: 165px;
+  width: 358px;
+  left: 42px;
+  top: 1316px;
+ border-radius: nullpx;
+ margin-left: 28%;
+ margin-top: 10%;
+
+}
+#imgservicos1{
+ margin-left: 90%;
+ width: 350px;
+    
+}
+.servico_geral{
+    display: flex;
+    justify-content: first baseline;   
+    
+}
+section.servicos .serviogeral2{
+  
+    display: flex;
+    justify-content: first baseline;   
+    
+}
+.serviosP2{
+ height: 165px;
+ width: 463px;
+ left: -450px;
+ top: 1652px;
+ border-radius: nullpx;
+ margin-left: 200px;
+ margin-top: 100px;
+
+}
+#imgservios2{
+    margin-left: 15%;
+    width:400px;
+}
+/* fim section serviços*/
+
+/* Incio sectiction consultoria*/
+section.Consultoria{
+    background-image: linear-gradient(90deg, #EE9CA7 0%, #FFDDE1 100%); 
+}
+.Consultsectionoria h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+section.Consultoria .subP{
+  height: 148px;
+  width: 400px;
+  left: -367px;
+  top: 3297px;
+  border-radius: nullpx;
+  margin-left: 80px;
+
+}
+section.Consultoria .sub1{
+    display: flex;
+    justify-content: first baseline;
+
+}
+#imgsub1{
+    width: 500px ;
+    margin-left: 50px;
+}
+
+section.Consultoria .sub2{
+    display: flex;
+    justify-content: first baseline
+}
+section.Consultoria .subP2{
+  height: 148px;
+  width: 400px;
+  left: -367px;
+  top: 3297px;
+  border-radius: nullpx;
+  margin-left: 25%;
+  margin-top: 10%;
+
+}
+#imgsub2{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** KIDS ------------------------------------------------------------------------------------------------------ **/
 
@@ -394,7 +528,11 @@ section.contato .content a:hover {
         margin-top: 20px;
     }
 
+    
+}
+
     section.kids .img {
         height: 320px;
     }
 }
+
