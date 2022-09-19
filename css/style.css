@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +40,8 @@ html, body {
 /* CLASSES GERAIS ------------------------------------------------------------------------------------------------------------------------------ */
 
 header {
-    background-image: linear-gradient(90deg, #EE9CA7 0%, #FFDDE1 100%);
+    background-image: linear-gradient(90deg, #DAE2F8 0%, #D6A4A4 100%);
+    
    
 }
 header nav{
@@ -53,11 +58,14 @@ header nav > a{
 header h1 {
     font-size: 3em;
     padding-left: 20px;
+    font-family: 'Ms Madi', cursive;
 
 }
 
 header h1 > span{
     font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+   
     
 }
 
@@ -72,7 +80,7 @@ section.home h2 {
     padding-left: 50px;
 }
 section.home div.orçamemto{
-   background-image: linear-gradient(90deg, #C84E89 0%, #F15F79 100%);
+    background-image: linear-gradient(90deg, #614385 0%, #516395 100%);
    border-radius: 20px 10px;
    text-align: center;
     width: 184px;
@@ -82,7 +90,7 @@ section.home div.orçamemto{
     margin-top: 15px;
 }
 section.home{
-    background-image: linear-gradient(90deg, #EE9CA7 0%, #FFDDE1 100%);
+    background-image: linear-gradient(90deg, #DAE2F8 0%, #D6A4A4 100%);
     
 }
 section.home div.imagem01{
@@ -220,7 +228,7 @@ section.formacao .formacao2 p {
 /* SECTION SERVICOS ------------------------------------------------------------------------------------------------------------------------------ */
 
 section.servicos {
-    background-image: linear-gradient(90deg, #EE9CA7 0%, #FFDDE1 100%); 
+    background-image: linear-gradient(90deg, #DAE2F8 0%, #D6A4A4 100%); 
     padding: 30px 0;
 }
 
@@ -270,7 +278,7 @@ section.servicos .img:nth-of-type(2) {
 /* SECTION.KIDS ------------------------------------------------------------------------------------------------------------------ **/
 
 section.kids {
-    background-color: #FEF1F3;
+    background-image: linear-gradient(90deg, #DAE2F8 0%, #D6A4A4 100%); 
 }
 
 section.kids .w100 {
@@ -305,7 +313,7 @@ section.kids p {
 
 
 section.consultoria {
-    background-image: linear-gradient(90deg, #EE9CA7 0%, #FFDDE1 100%);
+    background-image: linear-gradient(90deg, #DAE2F8 0%, #D6A4A4 100%);
     padding: 30px 0;
 }
 section.consultoria h2 {
