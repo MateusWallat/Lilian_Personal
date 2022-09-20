@@ -131,7 +131,7 @@ section.home div.imagem02 {
 /* SECTION FORMACAO ------------------------------------------------------------------------------------------------------------------------------ */
 
 section.formacao {
-    background-image: url('../images/fotoacademia1.jpeg');
+    background-image: url(/images/fundo-contact.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -139,15 +139,7 @@ section.formacao {
     min-height: 500px;
 }
 
-section.formacao .gradiant {
-    background: linear-gradient(90deg, rgba(238, 156, 167,0.7) 38%, rgba(255, 221, 225, 0.4) 100%);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
+
 
 section.formacao .formacao-wraper {
     display: flex;
@@ -160,19 +152,21 @@ section.formacao .formacao-wraper h1 {
     padding-top: 20px;
     width: 100%;
     text-align: center;
-    font-size: 48px;
-    color: #692336;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-family: 'Playfair Display SC', serif;
+    color: white;
 }
 
 section.formacao .w50 {
     width: 50%;
-    padding: 1%;
+    
 }
 
 section.formacao .w50 .img-formatura {
-    width: 260px;
-    height: 420px;
-    border-radius: 25px;
+    width: 300px;
+    height: 407px;
+    border-radius: 30px 10px 30px 10px;
     background-size: cover;
     background-position: top;
     background-image: url('../images/fotoformatura1.jpeg');
@@ -180,13 +174,17 @@ section.formacao .w50 .img-formatura {
 }
 
 section.formacao .formacao1 p {
-    width: 260px;
-    margin: 30px 0 30px 70px;
+    width: 319px;
+    height: 238px;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
 }
 
 section.formacao .w50 .img-container {
-    width: 500px;
-    height: 600px;
+    width: 431px;
+    height: 347px;
     margin: 80px auto 0;
 }
 
@@ -197,30 +195,24 @@ section.formacao .w50 .img-treino {
     height: 240px;
 }
 
-section.formacao .w50 .img-treino:nth-child(1) {
-    background-image: url('../images/foto1.png');
+section.formacao .w50 .img-treino {
+    background-image: url('/images/fotoformatura2.jpeg');
+    width: 431px;
+    height: 347px;
+    margin-top: 200px;
+    margin-left: 10px;
 }
 
-section.formacao .w50 .img-treino:nth-child(2) {
-    background-image: url('../images/foto2.png');
-    float: right;
-    position: relative;
-    bottom: 80px;
-    right: 50px;
-}
 
-section.formacao .w50 .img-treino:nth-child(3) {
-    background-image: url('../images/foto3.jpeg');
-    float: left;
-    position: relative;
-    top: 120px;
-    left: 32px;
-}
 
 section.formacao .formacao2 p {
-    width: 100%;
+    width: 403px;
+    height: 138px;
     padding: 1%;
-    margin-top: 15px;
+    margin-top: 3%;
+    margin-left: 100px;
+    font-family:  'Roboto', sans-serif;
+    color: white;
 }
 
 /* SECTION FORMACAO ------------------------------------------------------------------------------------------------------------------------------ */
