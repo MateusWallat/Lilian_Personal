@@ -37,6 +37,11 @@ html, body {
     clear: both;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
 /* CLASSES GERAIS ------------------------------------------------------------------------------------------------------------------------------ */
 
 header {
@@ -114,6 +119,7 @@ section.home .w50.home1 p {
     position: absolute;
     top: 380px; left: 340px;
     max-width: 301px;
+    font-size: 15px;
 }
 
 section.home .w50.home2 .flex:first-of-type {
@@ -152,15 +158,14 @@ section.home .w50.home2 .img.three {
 /* SECTION FORMACAO ------------------------------------------------------------------------------------------------------------------------------ */
 
 section.formacao {
-    background-image: url(/images/fundo-contact.png);
+    background-image: url('/images/fundo-contact.png');
     background-position: center;
     background-size: cover;
     position: relative;
     width: 100%;
     min-height: 500px;
+    padding: 30px 0;
 }
-
-
 
 section.formacao .formacao-wraper {
     display: flex;
@@ -181,7 +186,6 @@ section.formacao .formacao-wraper h1 {
 
 section.formacao .w50 {
     width: 50%;
-    
 }
 
 section.formacao .w50 .img-formatura {
@@ -194,13 +198,16 @@ section.formacao .w50 .img-formatura {
     margin-top: 120px;
 }
 
+section.formacao p {
+
+}
+
 section.formacao .formacao1 p {
     width: 319px;
-    height: 238px;
     margin-top: 3%;
     font-family: 'Roboto', sans-serif;
     color: white;
-    
+    font-size: 15px;
 }
 
 section.formacao .w50 .img-container {
@@ -224,16 +231,14 @@ section.formacao .w50 .img-treino {
     margin-left: 10px;
 }
 
-
-
 section.formacao .formacao2 p {
     width: 403px;
     height: 138px;
     padding: 1%;
     margin-top: 3%;
     margin-left: 100px;
-    font-family:  'Roboto', sans-serif;
     color: white;
+    font-size: 15px;
 }
 
 /* SECTION FORMACAO ------------------------------------------------------------------------------------------------------------------------------ */
@@ -270,7 +275,6 @@ section.servicos h3 {
 
 section.servicos p {
     font-size: 15px;
-    line-height: 17.58px;
     max-width: 560px;
     padding: 25px 0;
 }
@@ -348,8 +352,7 @@ section.kids .img.two {
 }
 
 section.kids p {
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 15px;
     max-width: 560px;
     padding: 25px 0;
 }
@@ -515,7 +518,7 @@ footer{
     width: 100%;
     height: 20px;
     text-align: center;
-   position: absolute;
+    position: absolute;
     top: 100%;
     transform: translateY(-150%);
     font-family: 'Roboto', sans-serif ;
